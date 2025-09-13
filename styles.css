@@ -1,0 +1,10 @@
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+  filter: brightness(50%); /* Làm tối ảnh để văn bản dễ đọc hơn */
+}
+
+.carousel-caption {
+  bottom: 30%; /* Điều chỉnh vị trí của văn bản */
+  z-index: 10;
+}
